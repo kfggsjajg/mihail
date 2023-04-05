@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    max-width: auto;
+    text-align: start;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+.logo{
+    width: 200px;
+    height: 170px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.number{
+    transition: 0,2s;
+    padding-right: 50px;
+    padding-top: 82px;
+}
+.number:hover{
+    color: aqua;
+}
+.menu{
+    height: 31px;
+    width: 40px;
+    margin-top: 80px;
+    margin-left: 52px;
+    transition: 0,2s;
+    position: sticky;
+
+}
+.menu:hover{
+    color: aqua;
+}
+
+main{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    display: inline-block;
+    padding-top: 100px;
+    font-size:larger;
+    padding-left: 16px;
+}
+h2{
+    color: aqua;
+    font-size: 32px;
+}
+h1{
+    color: aqua;
+    font-size: 62px;
+    width: 500px;
+}
+.h1{
+    color: white;
+}
+p{
+    max-width: 705px;
+    max-height: 130px;
+    font-size: 20px;
+}
+div{
+    margin: 30px;
+}
+.button{
+    color: black;
+}
+button{
+    background-color:aqua;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+    left: 1320px;
+    top: -69px;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    transition: 0,2s;
+}
+button:hover{
+    background-color: white;
+}
+img{
+    width: 121px;
+    height: 114px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    transition: 0,2s;
+}
+.main:hover{
+    color: aqua;
+}
+
+
